@@ -24,14 +24,14 @@ class SettingsModel(BaseModel):
 
     FORCE_SUB_MESSAGE: str | int = "Please join the channel(s) first."
     BANNED_USER_MESSAGE: str | int = "You have been banned from using this bot."
-    START_MESSAGE: str | int = "I am a file-sharing bot."
+    START_MESSAGE: str | int = "I am a storacle."
     ADDITIONAL_MESSAGE: str | int = 0
     USER_REPLY_TEXT: str | int = "idk"
     AUTO_DELETE_MESSAGE: str | int = "This file(s) will be deleted within {} minutes"
     INVALID_LINK_MESSAGE: str | int = "Attempted to resolve link: Got invalid link."
     FILE_DOES_NOT_EXIST: str | int = "Attempted to fetch files: Does not exist."
 
-    AUTO_DELETE_SECONDS: int = 300
+    AUTO_DELETE_SECONDS: int = 43200
     GLOBAL_MODE: bool = False
     BACKUP_FILES: bool = True
 
