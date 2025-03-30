@@ -31,7 +31,7 @@ class SettingsModel(BaseModel):
     INVALID_LINK_MESSAGE: str | int = "Attempted to resolve link: Got invalid link."
     FILE_DOES_NOT_EXIST: str | int = "Attempted to fetch files: Does not exist."
 
-    AUTO_DELETE_SECONDS: int = 300
+    AUTO_DELETE_SECONDS: int = 43200
     GLOBAL_MODE: bool = False
     BACKUP_FILES: bool = True
 
